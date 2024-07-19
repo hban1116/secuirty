@@ -7,7 +7,7 @@ steps:
         - |-
           apt-get update
           apt-get -y install maven 
-          SNYK_TOKEN=04383805-c688-4dae-bc2d-d3985c095581
+          SNYK_TOKEN="04383805-c688-4dae-bc2d-d3985c095581"
           export SNYK_TOKEN
           mvn snyk:test -fn
 options:
